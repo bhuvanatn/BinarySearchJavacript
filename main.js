@@ -106,7 +106,9 @@ bs.insert(20);
 bs.insert(9);
 bs.insert(2);
 bs.insert(10);
+
 bs.delete(16);
+
 console.log("Contains:", bs.contains(16));
 console.log("Contains:", bs.contains(2));
 console.log("Contains:", bs.contains(92));
